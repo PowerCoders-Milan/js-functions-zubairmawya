@@ -14,10 +14,10 @@ console.log(getFahrenheit(2)) // call getFahrenheit();
 
 
 // do the same thing starting from Fahrenheit to Celsius
-const squarroot = z => {
+const subtract32 = z => {
 return (z - 32);
 }
-const getcelsius = y => {
-return (squarroot(y) * 5/9);
+const getCelsius = y => {
+return (subtract32(y) * 5/9);
 }
-console.log(getcelsius(244))
+console.log(getCelsius(244))
